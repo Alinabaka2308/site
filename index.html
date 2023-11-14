@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>что-то</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Этот документ написан при помощи курса из youtube</h1>
+        <hr size="5" color="pink">
+
+        <div class="info">
+            <img src="ava.jpeg" alt="представьте, что тут фотка" class="ava"/>
+            <div class="text">
+                <h1><strong>Привет, меня зовут Лина и я учусь программированию</strong></h1>
+                <p> Это практика, где можно запомнить нужные теги и в дальнейшем писать код</p>
+                <p>*тут могла быть ваша реклама*</p>
+            </div>
+
+        </div>
+
+        
+        <div class="social">
+            <h2>Тут список моих социальных сетей:</h2>
+
+                <a href="https://t.me/pink_applee" target="_blank">Telegram</a>
+                |
+                <a href="https://instagram.com/draluminate" target="_blank">Instagram</a>
+        </div>
+
+
+        <div class="hobbies">
+            <h2>Мои увлечения:</h2>
+            <ol class="list">
+                <li>Игры</li>
+                <li>Рисование</li>
+                <li>Поедание вкусностей</li>
+                <li>Прокрастинация</li>
+                <li>Лежание на кровати</li>
+            </ol>
+        </div>
+
+
+        <div class="table1">
+            <h2>Таблица какая-то</h2>
+            <div class="table">
+                <table>
+
+                    <tr>
+                        <td>1</td>
+                        <td>css</td>
+                        <td>123000</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>python</td>
+                        <td>456000</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>pycharm</td>
+                        <td>789000</td>
+                    </tr>
+                </table>
+            </div>
+            
+        </div>
+        
+            <div class="card">
+                    <div class="contact">
+
+                        <h2>Комментарии</h2>
+                            <form action="/index.html">
+
+                    <div class="comm">
+                        <label for="name">Ваш ник:</label>
+                            <input type="text" id="name" placeholder="Ваш ник здесь">
+                    </div>
+
+                    <div class="comm">
+                        <label for="text">Прокомментировать: </label>
+                            <textarea name="" id="text" cols="50" rows="5"></textarea>
+                    </div>
+                            <input class="btn" type="submit" value="отправить!" id="submit">
+                            <script>
+                                document.querySelector('#submit').onclick=function(){
+                                    alert('спасибо за отзыв!');
+                                }
+                            </script>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

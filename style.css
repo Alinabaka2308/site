@@ -1,0 +1,154 @@
+body {
+    background-color: rgb(255, 223, 229);
+    color: rgb(138, 53, 73)
+
+    /*font-size: 20px;
+    font-weight:normal;
+    font-family: 'Roboto', sans-serif;*/
+
+    font: normal 16px 'Roboto', sans-serif
+}
+
+.ava {
+    width:200px;
+    border-radius: 15px;
+    box-shadow: 4PX 4px 14px rgba(68, 36, 36, 0.9);
+}
+
+.info {
+    display:flex;
+    margin-bottom: 10px;
+}
+
+@media (max-width:500px) {
+    .info {
+        display; block;
+    }
+    .ava {
+        display:block;
+    }
+}
+
+.text{
+    margin-left:30px;
+}
+
+.info p {
+    border-radius: 25px;
+    padding: 10px;
+    margin: 5px;
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+
+    /*text-transform: ;*/
+    /*letter-spacing: 3px;
+    word-spacing: 10px;*/
+}
+
+a{
+    color:rgb(230, 52, 141);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active{
+    color: rgb(135, 38, 135);
+}
+
+a:visited {
+    color:rgb(52, 140, 89)
+}
+
+.social {
+    background-image: url(sm.jpeg);
+    background-blend-mode: soft-light;
+    background-color:rgb(232, 205, 210);
+    border-radius: 25px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.hobbies {
+    background-image: url(hobbies.jpg);
+    background-blend-mode: soft-light;
+    background-color:rgb(232, 205, 210);
+    border-radius: 15px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.list {
+    padding: 20px;
+    list-style: none;
+}
+
+.list li {
+    color:rgb(125, 5, 63)
+}
+
+.table1 {
+    background-image: url(tabel.jpeg);
+    background-blend-mode: soft-light;
+    background-color:rgb(215, 179, 186);
+    border-radius: 15px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.card {
+    margin-bottom: 5px;
+    border-radius: 15px;
+    background-image: url(background.jpg);
+    background-blend-mode: soft-light;
+    background-color:rgb(238, 190, 199);
+    border-radius: 15px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.table {
+    width: 100%;
+    color:rgb(125, 5, 63);
+}
+
+.table td{
+    padding-bottom:10px;
+}
+
+.comm label{
+    display:block;
+    font-size:14px;
+    color:rgb(125, 5, 63)
+}
+
+.comm input,
+.comm textarea {
+    width:100%;
+    box-sizing: border-box;
+    border: none;
+    background-color:rgb(255, 240, 243);
+    outline:none;
+    font-family: inherit;
+    border-radius:10px;
+    margin:10px;
+}
+
+.btn{
+    background:rgb(117, 57, 57);
+    color:aliceblue;
+    border-radius:20px ;
+    border:none;
+    font-family: inherit;
+    cursor:pointer;
+}
+
+.container {
+    max-width: 100%;
+    margin: auto;
+    padding-top: 30px;
+}
